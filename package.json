@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-meta-data-props",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Define non-enumerable read-only properties which expose ndarray function meta data.",
   "license": "Apache-2.0",
   "author": {
