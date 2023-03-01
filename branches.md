@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/meta-data-props"
-click B href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/main"
-click C href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/production"
-click D href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/esm"
-click E href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/deno"
-click F href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/meta-data-props"
+%% click B href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/main"
+%% click C href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/production"
+%% click D href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/esm"
+%% click E href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/deno"
+%% click F href "https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/meta-data-props
