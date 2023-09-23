@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@deno/mod.js';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@v0.1.0-deno/mod.js';
 ```
 
 #### setProps( meta, dtypes, obj )
@@ -110,7 +110,7 @@ The `meta` data argument should be an `object` with the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@deno/mod.js';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@v0.1.0-deno/mod.js';
 
 // Define ndarray function meta data:
 var meta = {
