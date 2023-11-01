@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,64 +16,18 @@
 * limitations under the License.
 */
 
-/* eslint-disable array-element-newline */
-
 'use strict';
 
 // MODULES //
 
 var tape = require( 'tape' );
-var dtypes2signatures = require( '@stdlib/ndarray-base-dtypes2signatures' );
-var setProps = require( './../../dist' );
-
-
-// VARIABLES //
-
-var META = {
-	'nargs': 2,
-	'nin': 1,
-	'nout': 1
-};
-
-var TYPES = [
-	'float64', 'float64',
-	'float32', 'float32',
-	'generic', 'generic'
-];
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof setProps, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function attaches a property for retrieving the number of arguments', function test( t ) {
-	var obj = {};
-	setProps( META, TYPES, obj );
-	t.strictEqual( obj.nargs, META.nargs, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function attaches a property for retrieving the number of input ndarray arguments', function test( t ) {
-	var obj = {};
-	setProps( META, TYPES, obj );
-	t.strictEqual( obj.nin, META.nin, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function attaches a property for retrieving the number of output ndarray arguments', function test( t ) {
-	var obj = {};
-	setProps( META, TYPES, obj );
-	t.strictEqual( obj.nout, META.nout, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function attaches a property for retrieving the list of supported array data types', function test( t ) {
-	var obj = {};
-	setProps( META, TYPES, obj );
-	t.deepEqual( obj.types, dtypes2signatures( TYPES, META.nin, META.nout ), 'returns expected value' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
