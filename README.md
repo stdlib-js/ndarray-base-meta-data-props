@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-meta-data-props/tags). For example,
+
+```javascript
 import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@v0.2.2-esm/index.mjs';
 ```
 
@@ -115,7 +120,7 @@ The `meta` data argument should be an `object` with the following properties:
 <body>
 <script type="module">
 
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@v0.2.2-esm/index.mjs';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-meta-data-props@esm/index.mjs';
 
 // Define ndarray function meta data:
 var meta = {
