@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-meta-data-props",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Define non-enumerable read-only properties which expose ndarray function meta data.",
   "license": "Apache-2.0",
   "author": {
@@ -39,11 +39,11 @@
   "dependencies": {
     "@stdlib/ndarray-base-dtypes2signatures": "^0.2.2",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.4",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
+    "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
